@@ -52,6 +52,9 @@ async def handle_force_sub(bot: Client, cmd: Message):
                         InlineKeyboardButton("🤖 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url=invite_link.invite_link)
                     ],
                     [
+        InlineKeyboardButton( '𝕁𝕠𝕚𝕟 ℂ𝕙𝕒𝕟𝕟𝕖𝕝 1', url=f'https://t.me/addlist/xgg5E05xx1BlNDE1')
+                    ]                   
+                    [
                         InlineKeyboardButton("🔄 ʀᴇꜰʀᴇꜱʜ 🔄", callback_data="refreshForceSub")
                     ]
                 ]
